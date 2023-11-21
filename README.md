@@ -44,8 +44,8 @@ $ git clone https://github.com/williancn/ProjetoIntegrador-comanda
 
 #BACKEND
 # Apos a instação do PostgreSQL, crie um banco de dados e então dentro raiz do projeto Backend crie um arquvio .env com os seguintes dados:
-$ DATABASE_URL="postgresql://<usuario-do-banco>:<senha-do-banco>@localhost:5432/<nome-do-banco>?schema=public"
-$ JWT_SECRET=<token-secreto-de-sua-preferencia>
+# DATABASE_URL="postgresql://<usuario-do-banco>:<senha-do-banco>@localhost:5432/<nome-do-banco>?schema=public"
+# JWT_SECRET=<token-secreto-de-sua-preferencia>
 
 # Abra o terminal na raiz do projeto Backend e instale as dependências
 $ npm install
