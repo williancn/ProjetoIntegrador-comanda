@@ -1,4 +1,4 @@
-import { useContext, FormEvent, useState } from "react";
+import { useContext, FormEvent, useState, useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import styles from '../../styles/home.module.scss';
@@ -18,6 +18,11 @@ import { canSSRGuest } from "@/utils/canSSRGuest";
 
 export default function Home() {
   const { signIn } = useContext(AuthContext)
+  const { signUp } = useContext(AuthContext)
+  useEffect(() => {
+    // Chame a função signIn para criar um usuario para teste
+    signUp({name: 'teste', email: 'teste@teste.com', password: 'teste' });
+  }, []);
 
   const [email, setEmail ] = useState('');
   const [password, setPassword ] = useState('');
