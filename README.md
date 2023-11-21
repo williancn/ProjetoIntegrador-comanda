@@ -30,7 +30,6 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en).
 - Para o Backend:
 [PostgreSQL](https://www.postgresql.org/),
-- Para o FrontEnd Web:
 
 - Para o FrontEnd Mobile:
 [Android Studio](https://developer.android.com/studio?gclid=CjwKCAiAx_GqBhBQEiwAlDNAZl7PZNDYihvieM8WlZkRx82kRlQEafnF1krVkOgtipCN79yyb2sKuBoCtlQQAvD_BwE&gclsrc=aw.ds&hl=pt-br),
@@ -80,4 +79,5 @@ $ npm install
 $ npm run start
 
 # A aplicação será ira rodar e possibilitar pressionar a letra "W" no console para uma versao mobile na web, ou a letra "A" para abrir no emulador do Android Studio
+# É possivel usar as mesmas credencias do FrontEnd Web para logar no app
 ```
