@@ -31,7 +31,7 @@ export default function Category(){
     return(
         <>
         <Head>
-            <title>Nova categoria - Pizzaria Casanova</title>
+            <title>Nova categoria</title>
         </Head>
         <div>
             <Header/>

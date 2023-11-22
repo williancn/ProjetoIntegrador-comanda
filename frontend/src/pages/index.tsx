@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Pizzaria Casanova - Faça seu login</title>
+        <title>Faça seu login</title>
       </Head>
       <div className={styles.containerCenter}>
         <Image src={logoImg}  width={550} alt="Logo Pizzaria Casanova" />

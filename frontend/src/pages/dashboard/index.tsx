@@ -111,7 +111,7 @@ export default function Dashboard({ orders }: HomeProps) {
   return (
     <>
       <Head>
-        <title>Painel - Pizzaria Casanova</title>
+        <title>Painel</title>
       </Head>
       <div>
         <Header />
